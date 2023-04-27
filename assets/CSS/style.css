@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Open+Sans:wght@300&family=Ysabeau:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/image_1.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.navbar ul li a {
+    color: white;
+    margin-right: 40px;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 20px;
+}
+.hello span {
+    /* display: block; */
+    color: white;
+    
+}
+.hello {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+   font-family: 'Ysabeau', sans-serif;
+   padding-top: 250px;
+}
+.me {
+    font-size: 50px;
+}
+.name {
+    font-size: 80px;
+    font-weight: bold;
+}
+.this {
+    letter-spacing: 5px;
+}
+.container1 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.feat {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.featured {
+    font-size: 30px;
+    font-family: 'Ysabeau', sans-serif;
+    gap: 10px;
+    color: white;
+
+}
+.port {
+    font-size: 30px;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    text-shadow: 0 2px black;
+    color: white;
+}
+.list2 ul {
+    display: flex; 
+}
+.list2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.list2 ul li a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ysabeau', sans-serif;
+    margin-right: 17px;
+    transition: 0.5s;
+}
+.list2 ul li a:hover {
+    color: #6BAA4F;
+}
+
+.imglist {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img1 span {
+    font-size: 20px;
+    font-family: 'Ysabeau', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.myresume {
+    padding-top: 130px;
+    text-align: center;
+}
+.twoname {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: white;
+    padding-top: 40px;
+}
+.twoname span {
+    font-size: 30px;
+}
+.text1 {
+    width: 40%;
+    height: 220px;
+    background-color: #333333;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.text1 h2 {
+    color: #406C39;
+}
+.textlist {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+}
+.container2 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.container3 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.aboutlist {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    width: 600px;
+    height: 350px;
+    background-image: url('../images/image_1.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.about {
+    width: 600px;
+    height: 350px;
+    background-color: transparent;
+}
+.hire {
+    padding: 5px 15px;
+    background-color: #BAC964;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.cv {
+    padding: 5px 15px;
+    background-color: #6C757D;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.container4 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.test {
+    text-align: center;
+    padding-top: 160px;
+}
+.pic1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('../images/person_1.jpg.webp');
+    background-size: cover;
+    margin-left: 60px;
+}
+.testpic {
+    width: 30%;
+    height: 200px;
+    background-color: #333333;
+    border-radius: 20px;
+}
+.testboxes {
+    display: flex;
+    padding-top: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.pic2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('../images/person_2.jpg.webp');
+    background-size: cover;
+    margin-left: 120px;
+}
+.pic3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('../images/person_3.jpg.webp');
+    background-size: cover;
+    margin-left: 60px;
+}
+.pic4 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('../images/person_4.jpg.webp');
+    background-size: cover;
+    margin-left: 120px;
+}
+.container5 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.services {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.services1 {
+    width: 25%;
+    height: 400px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
