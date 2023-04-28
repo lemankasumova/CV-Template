@@ -134,7 +134,7 @@
     height: 220px;
     background-color: #333333;
     border-radius: 15px;
-    padding-top: 20px;
+    padding: 30px;
 }
 .text1 h2 {
     color: #406C39;
@@ -255,6 +255,36 @@
     width: 25%;
     height: 400px;
     background-color: #333333;
+}
+
+.icon1 {
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    background-color:#bac964;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.icon {
+    padding-top: 30px;
     display: flex;
     justify-content: center;
+}
+.services h3 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.services p {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.services .learn {
+    text-align: center;
+    color: #6BAA4F;
+    cursor: pointer;
+    transition: 0.5s;
 }
